@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dims Store</title>
+    <meta name="description" content="Dims Store - Your one-stop shop for all your needs.">
+    <meta name="keywords" content="store, shop, products, ecommerce">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body onload="showSectionFromHash()">
+    <header>
+        <h1>Dims Store</h1>
+        <nav>
+            <button class="nav-button" onclick="navigateTo('home')">Home</button>
+            <button class="nav-button" onclick="navigateTo('cart')">Keranjang Belanja</button>
+            <button class="nav-button" onclick="navigateTo('product')">Halaman Produk</button>
+            <button class="nav-button" onclick="navigateTo('checkout')">Sistem Checkout</button>
+            <button class="nav-button" onclick="navigateTo('navigation')">Navigasi Mudah</button>
+        </nav>
+    </header>
+    <section id="home" class="section">
+        <h2>Halaman Utama</h2>
+        <p>Menampilkan produk unggulan, promo, dan kategori yang menarik.</p>
+        <div class="welcome">
+            <h2>Selamat Datang di Dims Store!</h2>
+            <p>
+                Kami senang Anda berada di sini. Jelajahi berbagai produk kami dan nikmati pengalaman berbelanja yang mudah. 
+                Tim kami berdedikasi untuk memberikan Anda layanan terbaik dan produk berkualitas. 
+                Terima kasih telah memilih Dims Store!
+            </p>
+        </div>
+        <div class="product">
+            <div class="product-item">
+                <h2>Product 1</h2>
+                <p>Description of Product 1</p>
+                <p>Price: $10</p>
+            </div>
+            <div class="product-item">
+                <h2>Product 2</h2>
+                <p>Description of Product 2</p>
+                <p>Price: $20</p>
+            </div>
+            <!-- Add more products as needed -->
+        </div>
+    </section>
+    <section id="cart" class="section">
+        <h2>Keranjang Belanja</h2>
+        <p>Memudahkan pengguna menyimpan produk sebelum melakukan pembelian.</p>
+        <form id="cartForm">
+            <label for="productSelect">Pilih Produk:</label>
+            <select id="productSelect" name="product">
+                <option value="1GB">📦 1GB : 2K</option>
+                <option value="2GB">📦 2GB : 3K</option>
+                <option value="3GB">📦 3GB : 4K</option>
+                <option value="4GB">📦 4GB : 5K</option>
+                <option value="5GB">📦 5GB : 6K</option>
+                <option value="6GB">📦 6GB : 7K</option>
+                <option value="7GB">📦 7GB : 8K</option>
+                <option value="8GB">📦 8GB : 9K</option>
+                <option value="9GB">📦 9GB : 10K</option>
+                <option value="10GB">📦 10GB : 11K</option>
+                <option value="UNLI">📦 UNLI : 12K</option>
+            </select>
+            <button type="button" onclick="addToCart()">Tambah ke Keranjang</button>
+        </form>
+        <div id="cartItems">
+            <h3>Produk di Keranjang:</h3>
+            <ul id="cartList"></ul>
+        </div>
+        <button type="button" onclick="checkoutCart()">Checkout</button>
+    </section>
+    <section id="product" class="section">
+        <h2>Halaman Produk</h2>
+        <p>Informasi lengkap tentang setiap produk, termasuk harga, deskripsi, dan gambar berkualitas tinggi.</p>
+        <p>
+            *OPEN KEBUTUHAN PANEL BOT WA !!!*<br><br>
+            *`LIST PANEL PRIVATE BY NEXT STORE`*<br><br>
+            📦 1GB :  2K<br>
+            📦 2GB :  3K<br>
+            📦 3GB :  4K<br>
+            📦 4GB :  5K<br>
+            📦 5GB :  6K<br>
+            📦 6GB :  7K<br>
+            📦 7GB :  8K<br>
+            📦 8GB :  9K<br>
+            📦 9GB :  10K<br>
+            📦 10GB : 11K<br>
+            📦 UNLI :  12K<br><br>
+            KEUNTUNGAN MEMBELI PANEL PRIV :<br>
+            - SPECK VPS = RAM 16 C4<br>
+            - ANTI LAG/DELAY<br>
+            - HEMAT KUOTA<br>
+            - HEMAT PENYIMPANAN<br>
+            - SERVER ANTI INTIP<br>
+            - DAPAT FREE SC<br><br>
+            _*`buy panel? chat admin`*_<br>
+            ======================<br>
+            ☎️Contact Admin☎️<br>
+            > 🪀No Admin : <a href="https://wa.me/6287740794085">Wa.me//6287740794085</a><br>
+            > 🪀No Admin : <a href="https://wa.me/6282115797550">Wa.me//6282115797550</a><br>
+            > 🚀 Testi? CH : <a href="https://whatsapp.com/channel/0029Vb7KJQDBPzjW9PCFl91k">https://whatsapp.com/channel/0029Vb7KJQDBPzjW9PCFl91k</a>
+        </p>
+        <p>
+            Our Features<br>
+            Group Features<br>
+            ✅ Hidetag<br>
+            ✅ Grup close atau open<br>
+            ✅ Gcname<br>
+            ✅ Gcdesk<br>
+            ✅ Add<br>
+            ✅ Kick<br>
+            ✅ Ownergc<br>
+            ✅ Leave<br>
+            ✅ Promote<br>
+            ✅ Demote<br>
+            ✅ Ephemeral<br>
+            ✅ Vote<br>
+            ✅ Antilink<br>
+            Search Features<br>
+            ✅ Youtube play<br>
+            ✅ Youtube search<br>
+            ✅ Google & google image<br>
+            ✅ Pinterest<br>
+            ✅ Search Wallpaper<br>
+            ✅ Youtube Search<br>
+            ✅ Spotify Search<br>
+            ✅ Wikimedia<br>
+            ✅ Ringtone<br>
+            ✅ Stalk People<br>
+            ✅ Gsmarena<br>
+            ✅ Kamus KBBI<br>
+            Creator Features<br>
+            ✅ ATTP & TTP<br>
+            ✅ Sticker To Image/Video/GIF<br>
+            ✅ Emoji Mix<br>
+            ✅ Pinterest<br>
+            ✅ Sticker<br>
+            ✅ Sticker WM<br>
+            ✅ Sticker Meme<br>
+            ✅ KTP Fake Maker<br>
+            ✅ Sertifikat Bucin/Pacaran/Tolol<br>
+            ✅ Translate Kode Biner<br>
+            Downloader Features<br>
+            ✅ Tiktok WM/No WM/Slide Show<br>
+            ✅ Spotify/Joox/SoundCloud Download<br>
+            ✅ Youtube Music<br>
+            ✅ Youtube Video<br>
+            ✅ Facebook/IG/Twitter Download<br>
+            ✅ ZippyShare Download<br>
+            ✅ Get Music or Get Video<br>
+            AI Chat (NEW!)<br>
+            ✅ Chat Open AI & Open AI Turbo 3.5<br>
+            ✅ Dall-E & Diffusion (Buat gambar dari AI)<br>
+            ✅ Speech to text<br>
+        </p>
+        <p class="animated-text">
+            Kami menyediakan layanan bot WhatsApp canggih yang dapat membantu otomatisasi berbagai kebutuhan bisnis dan personal, seperti:<br><br>
+            Auto-responder: Balas pesan otomatis dengan pengaturan yang fleksibel.<br>
+            Broadcast pesan: Kirim pesan ke banyak kontak sekaligus tanpa repot.<br>
+            Integrasi API: Hubungkan bot dengan sistem lain untuk otomatisasi lebih lanjut.<br>
+            Fitur Custom: Bisa disesuaikan dengan kebutuhan bisnis Anda.<br><br>
+            Selain bot WhatsApp, kami juga menyediakan panel khusus yang memudahkan pengguna untuk mengelola dan menjalankan bot mereka dengan lebih mudah. Dengan panel ini, Anda bisa:<br><br>
+            Mengontrol bot secara real-time tanpa harus mengedit kode.<br>
+            Mengelola nomor WhatsApp dengan aman dan praktis.<br>
+            Menyesuaikan pengaturan bot dengan antarmuka yang user-friendly.<br><br>
+            🔥 Tersedia berbagai paket sesuai kebutuhan!<br>
+            Hubungi kami sekarang untuk demo atau konsultasi gratis. 🚀
+        </p>
+    </section>
+    <section id="checkout" class="section">
+        <h2>Sistem Checkout</h2>
+        <p>Pembelian cepat dan aman dengan berbagai metode pembayaran.</p>
+        <p>Silakan pilih metode pembayaran Anda:</p>
+        <ul id="checkoutList"></ul>
+        <ul>
+            <li>Dana: <a href="https://link.dana.id/085187920550">085187920550</a></li>
+            <li>GoPay: <a href="https://link.gopay.id/085187920550">085187920550</a></li>
+            <li>OVO: <a href="https://link.ovo.id/085187920550">085187920550</a></li>
+        </ul>
+    </section>
+    <section id="navigation" class="section">
+        <h2>Navigasi Mudah</h2>
+        <p>Desain responsif dan user-friendly untuk pengalaman belanja terbaik di berbagai perangkat.</p>
+        <!-- Add navigation content here -->
+    </section>
+    <section id="contact" class="section">
+        <h2>Contact Us</h2>
+        <p>For inquiries, please contact us at:</p>
+        <p>Phone: +62 877 4079 4085</p>
+        <p>Phone: +62 851 8792 0550</p>
+        <p>Email: <a href="mailto:dimsf39298@gmail.com">dimsf39298@gmail.com</a></p>
+    </section>
+    <section id="list" class="section">
+        <h2>Product List</h2>
+        <p>Here is a list of all our products.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 Dims Store. All rights reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
